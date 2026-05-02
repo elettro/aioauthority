@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AIO Authority | AI Optimization, AI Schema, Voice Agents &amp; AI Search Visibility</title>
+<meta content="AIO Authority helps brands become visible and trusted across AI search, voice assistants, and modern search engines through AI optimization, schema markup, and custom AI voice agents." name="description"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#0f131c",
+                        "on-surface-variant": "#c1c6d7",
+                        "surface-container-lowest": "#0a0e17",
+                        "surface-variant": "#31353f",
+                        "surface-tint": "#adc7ff",
+                        "primary-container": "#4a8eff",
+                        "secondary-container": "#00f1fe",
+                        "on-surface": "#dfe2ef",
+                        "on-tertiary": "#2f3131",
+                        "on-error": "#690005",
+                        "surface-container": "#1c1f29",
+                        "primary-fixed": "#d8e2ff",
+                        "tertiary-container": "#909191",
+                        "surface-container-high": "#262a34",
+                        "on-error-container": "#ffdad6",
+                        "on-background": "#dfe2ef",
+                        "on-secondary-fixed-variant": "#004f54",
+                        "secondary": "#ddfcff",
+                        "outline-variant": "#414754",
+                        "error-container": "#93000a",
+                        "surface-bright": "#353943",
+                        "on-secondary-container": "#006a70",
+                        "inverse-surface": "#dfe2ef",
+                        "on-primary-fixed": "#001a41",
+                        "tertiary-fixed-dim": "#c6c6c7",
+                        "on-secondary-fixed": "#002022",
+                        "background": "#0f131c",
+                        "secondary-fixed": "#74f5ff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "on-secondary": "#00363a",
+                        "inverse-on-surface": "#2c303a",
+                        "error": "#ffb4ab",
+                        "on-primary-fixed-variant": "#004493",
+                        "surface-container-highest": "#31353f",
+                        "on-tertiary-fixed": "#1a1c1c",
+                        "inverse-primary": "#005bc0",
+                        "surface-dim": "#0f131c",
+                        "on-primary-container": "#00285b",
+                        "on-primary": "#002e68",
+                        "surface-container-low": "#181b25",
+                        "tertiary": "#c6c6c7",
+                        "primary-fixed-dim": "#adc7ff",
+                        "outline": "#8b90a0",
+                        "primary": "#adc7ff",
+                        "secondary-fixed-dim": "#00dbe7",
+                        "on-tertiary-container": "#282a2a",
+                        "on-tertiary-fixed-variant": "#454747"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "margin-desktop": "48px",
+                        "container-max": "1280px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "section-gap": "120px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "h2": ["Space Grotesk"],
+                        "h3": ["Space Grotesk"],
+                        "h1": ["Space Grotesk"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "h2": ["48px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "h3": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "h1": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(18, 24, 38, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .ai-glow {
+            box-shadow: 0 0 30px rgba(0, 123, 255, 0.15);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #adc7ff 0%, #00f1fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+<style>
+        @keyframes mesh-float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(10%, -10%) scale(1.1); }
+            66% { transform: translate(-5%, 15%) scale(0.9); }
+        }
+        @keyframes particle-drift {
+            0% { transform: translateY(0) translateX(0); opacity: 0; }
+            25% { opacity: 0.3; }
+            50% { transform: translateY(-100px) translateX(20px); opacity: 0.1; }
+            100% { transform: translateY(-200px) translateX(-20px); opacity: 0; }
+        }
+        .bg-mesh-gradient {
+            filter: blur(100px);
+            opacity: 0.4;
+        }
+        .mesh-blob {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 100%;
+            filter: blur(80px);
+            animation: mesh-float 20s ease-in-out infinite alternate;
+        }
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #00f1fe;
+            border-radius: 50%;
+            animation: particle-drift 15s linear infinite;
+        }
+    </style></head>
+<body class="bg-surface text-on-surface font-body-md antialiased overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#0a0e17]/70 backdrop-blur-xl border-b border-white/10 shadow-[0_0_20px_rgba(0,123,255,0.05)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#007bff] text-3xl">hub</span>
+<span class="text-xl font-bold text-white tracking-widest font-['Space_Grotesk'] tracking-tight">AIO Authority</span>
+</div>
+<div class="hidden md:flex items-center gap-8 font-['Space_Grotesk'] tracking-tight">
+<a class="text-slate-400 font-medium hover:text-white transition-all duration-300" href="#services">Services</a>
+<a class="text-slate-400 font-medium hover:text-white transition-all duration-300" href="#voice">AI Voice</a>
+<a class="text-[#007bff] font-bold border-b-2 border-[#007bff] pb-1 hover:text-white transition-all duration-300" href="#report">Project Report</a>
+<a class="text-slate-400 font-medium hover:text-white transition-all duration-300" href="#faq">FAQ</a>
+</div>
+<button class="bg-[#007bff] text-white px-6 py-2.5 rounded hover:bg-blue-600 transition-colors font-['Space_Grotesk'] tracking-tight scale-95 active:scale-90 transition-transform hidden md:block">
+                Request AI Audit
+            </button>
+<button class="md:hidden text-white">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative pt-[180px] pb-section-gap px-gutter min-h-[921px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0"><div class="absolute inset-0 overflow-hidden pointer-events-none">
+<div class="bg-mesh-gradient absolute inset-0">
+<div class="mesh-blob bg-[#007bff]/20 top-[-10%] left-[-10%]"></div>
+<div class="mesh-blob bg-[#00f1fe]/15 bottom-[-10%] right-[-10%]" style="animation-delay: -5s; animation-duration: 25s;"></div>
+<div class="mesh-blob bg-[#adc7ff]/10 top-[20%] right-[10%]" style="animation-delay: -10s; animation-duration: 30s;"></div>
+</div>
+<div class="absolute inset-0">
+<div class="particle" style="top: 80%; left: 10%; animation-delay: 0s;"></div>
+<div class="particle" style="top: 60%; left: 40%; animation-delay: -2s;"></div>
+<div class="particle" style="top: 90%; left: 70%; animation-delay: -4s;"></div>
+<div class="particle" style="top: 75%; left: 85%; animation-delay: -6s;"></div>
+<div class="particle" style="top: 85%; left: 30%; animation-delay: -8s;"></div>
+<div class="particle" style="top: 70%; left: 60%; animation-delay: -10s;"></div>
+</div>
+</div>
+<img alt="A futuristic AI network interface visualization in a deep dark space setting. Glowing electric blue and cyan data nodes connect in a complex three-dimensional web. The background is a rich dark navy (#0a0e17), giving a sense of infinite digital space. The lighting is high-contrast, technical, and premium, representing sophisticated artificial intelligence search architecture." class="w-full h-full object-cover opacity-20 mix-blend-screen" data-alt="A futuristic AI network interface visualization in a deep dark space setting. Glowing electric blue and cyan data nodes connect in a complex three-dimensional web. The background is a rich dark navy (#0a0e17), giving a sense of infinite digital space. The lighting is high-contrast, technical, and premium, representing sophisticated artificial intelligence search architecture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpO8EC6Pd1QJvrij8PIz5z-aQiXRr6nbfR7eSxBykFuTgOXxREyXgvy9gYFVE37S2T8LuRyrXd4dlFpfCgcYDx6oAA9kb9fG6CT3Jd0Luk-i3NLR1elp_rJXZ7JaTD9maUKzY8gJI4E9l_6y4SJPKQxdz4r9o4tWEFL4mVxjMY4nNyr4BQo6wVdHW561bx25FW5i6lGO9o547-Or6tjvj2eE7s6lvjLVYfdkofpxpW4zjr0zS3RzXm1C-yNMVkEMHJsTuj86PwiRs"/>
+<div class="absolute inset-0 bg-gradient-to-b from-surface/50 via-surface/80 to-surface"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto text-center flex flex-col items-center">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-secondary-container/30 bg-surface-container-low/50 backdrop-blur-sm mb-8">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-caps text-secondary-container">AI Search Optimization</span>
+</div>
+<h1 class="font-h1 text-h1 text-white mb-6 max-w-4xl">
+                Get Found, Trusted, and Chosen in the <span class="text-gradient">AI Search Era</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-12">
+                Traditional SEO isn't enough. We ensure your brand is discovered across ChatGPT, Google AI Overviews, Perplexity, and modern voice assistants.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+<button class="bg-[#007bff] text-white px-8 py-4 rounded font-['Space_Grotesk'] font-bold text-lg hover:bg-blue-600 transition-colors ai-glow">
+                    Request AI Audit
+                </button>
+<button class="glass-panel text-white px-8 py-4 rounded font-['Space_Grotesk'] font-bold text-lg hover:bg-white/10 transition-colors border border-[#007bff]/50">
+                    View SEO &amp; AI Schema Report
+                </button>
+</div>
+</div>
+</section>
+<!-- Problem Section -->
+<section class="py-section-gap px-gutter bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-h2 text-h2 text-white mb-4">Search Has Changed.<br/>Your Website Has to Change With It.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Large Language Models and AI engines don't read websites like legacy search engines. They require structured, authoritative data.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="glass-panel p-8 rounded-xl flex flex-col items-start hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">visibility</span>
+</div>
+<h3 class="font-h3 text-xl text-white mb-3">AI Search Visibility</h3>
+<p class="text-on-surface-variant font-body-md text-sm">LLMs synthesize answers instantly. We optimize your content to be the definitive source they quote.</p>
+</div>
+<!-- Card 2 -->
+<div class="glass-panel p-8 rounded-xl flex flex-col items-start hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">schema</span>
+</div>
+<h3 class="font-h3 text-xl text-white mb-3">Schema Accuracy</h3>
+<p class="text-on-surface-variant font-body-md text-sm">Deep semantic markup that speaks directly to AI bots, removing ambiguity about who you are and what you do.</p>
+</div>
+<!-- Card 3 -->
+<div class="glass-panel p-8 rounded-xl flex flex-col items-start hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<h3 class="font-h3 text-xl text-white mb-3">Local Business Trust</h3>
+<p class="text-on-surface-variant font-body-md text-sm">Establish unshakeable local entity authority so AI confidently recommends you for "near me" queries.</p>
+</div>
+<!-- Card 4 -->
+<div class="glass-panel p-8 rounded-xl flex flex-col items-start hover:border-primary/50 transition-colors group">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">record_voice_over</span>
+</div>
+<h3 class="font-h3 text-xl text-white mb-3">Voice &amp; Chat Readiness</h3>
+<p class="text-on-surface-variant font-body-md text-sm">Structure data specifically for Siri, Alexa, and Google Assistant voice queries.</p>
+</div>
+</div>
+</div>
+</section><section class="py-section-gap px-gutter bg-surface" id="voice">
+<div class="max-w-container-max mx-auto text-center">
+<h2 class="font-h2 text-h2 text-white mb-6">Experience Our AI Voice Agents</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-12">
+            Hear how our custom-trained voice agents handle complex customer interactions with natural cadence and deep industry knowledge.
+        </p>
+<div class="flex justify-center">
+<button class="bg-[#007bff] text-white px-8 py-4 rounded font-['Space_Grotesk'] font-bold text-lg hover:bg-blue-600 transition-all ai-glow flex items-center gap-3" onclick="document.getElementById('voice-agent-audio').play()">
+<span class="material-symbols-outlined">play_circle</span>
+                AI Voice Agent Example - Luxury Marina Voice Agent
+            </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 border-t border-slate-800 bg-[#0a0e17]">
+<div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="text-lg font-black text-white">
+                AIO Authority
+            </div>
+<div class="flex flex-wrap justify-center gap-6 font-['Space_Grotesk'] text-sm uppercase tracking-wider text-slate-500">
+<a class="hover:text-[#007bff] transition-colors opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="hover:text-[#007bff] transition-colors opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="hover:text-[#007bff] transition-colors opacity-80 hover:opacity-100" href="#">Contact Support</a>
+</div>
+<div class="font-['Space_Grotesk'] text-sm text-slate-500">
+                © 2026 AIO Authority. Architectural Intelligence Operations.
+            </div>
+</div>
+</footer>
+<audio id="voice-agent-audio" src="https://www.dropbox.com/scl/fi/tmrtq4k6wv3phr9fnrei6/250613-AI-VoiceCallSample-v2-louder.mp3?rlkey=4df7jsbdod4yq3ik6fbbx8qm0&amp;st=96cngl8p&amp;dl=1"></audio></body></html>
